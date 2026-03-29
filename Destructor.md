@@ -21,6 +21,7 @@ To create a Python class `Student` with a destructor.
 
 ### PROGRAM
 
+```python
 class Student:
 def __init__(self, name):
         self.name = name
@@ -29,7 +30,7 @@ def __del__(self):
         print("Destructor called - Student deleted:", self.name)
 s1 = Student("Employee")
 del s1
-
+```
 ### OUTPUT
 <img width="1184" height="216" alt="image" src="https://github.com/user-attachments/assets/a93dec65-a6d7-43d2-8ed1-dea7050808ec" />
 
