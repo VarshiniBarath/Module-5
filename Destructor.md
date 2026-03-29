@@ -27,9 +27,7 @@ def __init__(self, name):
         print("Constructor called - Student created:", self.name)
 def __del__(self):
         print("Destructor called - Student deleted:", self.name)
-# Creating object
 s1 = Student("Employee")
-# Deleting object
 del s1
 
 ### OUTPUT
